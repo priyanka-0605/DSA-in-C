@@ -69,6 +69,7 @@ int main(){
     third->next=NULL;
     LinkedListTraversal(head);
     //  head is a pointer struct Node *ptr 
+    //
     
     return 0;
 }

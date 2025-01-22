@@ -49,7 +49,7 @@ struct Node * deleteAtlast(struct Node *head){
     return head;
 }
 // case4;deleting element at the given value
-struct Node * deleteAtIndex(struct Node *head,int value){
+struct Node * deleteAtValue(struct Node *head,int value){
     struct Node *p=head;
     struct Node *q=head->next;
     // two condition will pass cond1 or cond.2
